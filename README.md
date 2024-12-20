@@ -1,16 +1,12 @@
-Here’s a **`README.md`** for your project:
-
-```markdown
 # User Profile App
 
-This is a simple React application that fetches and displays user information from the [Random User API](https://randomuser.me/). The application is modular, with reusable components, making it easy to extend or modify.
+This is a simple React application that fetches and displays user information from the [Random User API](https://randomuser.me/api/?page=1&results=1&seed=abc).
 
 ## Features
 
 - Fetches random user data from the Random User API.
 - Displays user information in a visually appealing card layout.
-- Modular components for easy customization and scalability.
-- Includes user details like name, email, address, and phone number.
+- Includes user details like name, email, address, and phone number etc.
 - Links to social profiles based on the username.
 
 ## Components
@@ -24,7 +20,7 @@ The application is built using the following reusable components:
 
 ## Demo
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=Add+your+screenshot+here)
+![Demo Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-20%20232654.png)
 
 ## Installation
 
@@ -35,8 +31,8 @@ The application is built using the following reusable components:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/user-profile-app.git
-   cd user-profile-app
+   git clone https://github.com/ps3coder/API_RANDOMUSER
+   cd frontend
    ```
 
 2. Install dependencies:
@@ -80,46 +76,17 @@ user-profile-app/
 
 ## API Reference
 
-This project uses the [Random User API](https://randomuser.me/) to fetch user data. Example API request:
+This project uses the [Random User API](https://randomuser.me/api/?page=1&results=1&seed=abc) to fetch user data. Example API request:
 
 ```
 https://randomuser.me/api/?page=1&results=1&seed=abc
 ```
 
-### Sample Response:
-```json
-{
-  "results": [
-    {
-      "gender": "female",
-      "name": {
-        "title": "Miss",
-        "first": "Laura",
-        "last": "Woods"
-      },
-      "location": {
-        "street": {
-          "number": 2479,
-          "name": "Henry Street"
-        },
-        "city": "Blessington",
-        "state": "Wexford",
-        "country": "Ireland",
-        "postcode": 78276
-      },
-      "email": "laura.woods@example.com",
-      "phone": "031-623-5189",
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/88.jpg"
-      }
-    }
-  ]
-}
-```
+
 
 ## Technologies Used
 
-- **Frontend**: React, TailwindCSS
+- **Frontend**: React, TailwindCSS , FontAwesomeIcon(For Icon) , GoogleFonts(for fonts)
 - **API**: Random User API
 
 ## Customization
@@ -129,28 +96,9 @@ Feel free to extend the application by:
 - Styling components using TailwindCSS or another library.
 - Integrating with other APIs to enrich user data.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Commit your changes: `git commit -m "Add your feature"`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - [Random User API](https://randomuser.me/) for providing the sample user data.
 - React community for providing excellent tools and documentation.
 
 ---
-
-### Have a feature idea or an issue?
-Feel free to [open an issue](https://github.com/your-username/user-profile-app/issues) or submit a pull request!
-```
-
-Replace `your-username` with your GitHub username and upload a relevant screenshot to replace the placeholder in the "Demo" section. Let me know if you’d like help tweaking this further!
